@@ -1,0 +1,25 @@
+body {
+    font-family: 'Microsoft YaHei', '宋体';
+}
+
+section {
+    padding: 1em 0;
+    clear: both;
+}
+
+section.base-info .tag, section.contact .tag {
+    font-weight: bold;
+    float: left;
+    padding: 0;
+}
+
+section.base-info .content, section.contact .content {
+    padding: 0 0.5em;
+    margin-right: 2em;
+    float: left;
+}
+
+section .tag, section .tag {
+    font-weight: bold;
+    padding: 0.25em 0;
+}
