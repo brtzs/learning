@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* 页头导航菜单 */
+nav {
+    margin: 0;
+    padding: 24px 15%;
+    background-color: #333;
+    color: #fff;
+}
+
+nav .logo {
+    position: relative;
+    left: 8px;
+    font-size: 24px;
+    display: inline;
+}
+
+nav .menus {
+    float: right;
+    clear: both;
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    margin: 0 24px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 页面主体内容 */
+.container .banner {
+    width: 100%;
+    height: 384px;
+    background-color: aquamarine;
+}
+
+.container .banner ul {
+    position: relative;
+    top: 90%;
+    left: 80%;
+    display: inline;
+}
+
+.container .banner ul li {
+    margin: 8px 16px;
+    padding: 8px 12px;
+    background-color: bisque;
+    list-style-type: none;
+    display: inline;
+}
+
+.content {
+    margin: 32px 0;
+    padding: 0 15%;
+}
+
+.container .tab {
+    border-bottom: 1px solid #888;
+    display: block;
+}
+
+.container .tab button {
+    margin: 0;
+    padding: 8px 16px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container .tab .active {
+    background-color: #fff;
+    border: 1px solid #888;
+    border-bottom: 2px solid #fff;
+}
+
+.container .content .row1 {
+    margin: 16px 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.container .content .row1 .left, .container .content .row1 .middle, .container .content .row1 .right {
+    width: 33%;
+    height: 256px;
+    border: 1px solid #888;
+}
+
+.container .content .row1 .middle {
+    margin: 0 33.4%;
+}
+
+.container .content .row1 .left {
+    float: left;
+    clear: left;
+}
+
+.container .content .row1 .right {
+    float: right;
+    clear: right;
+}
+
+.container .content .row2 {
+    margin: 16px 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.container .content .row2 .item1, .container .content .row2 .item2, .container .content .row2 .item3, .container .content .row2 .item4 {
+    width: 24%;
+    height: 256px;
+    margin-right: 1.1%;
+    border: 1px solid #888;
+    float: left;
+}
+
+.container .content .row2 .item1 {
+    clear: left;
+}
+
+.container .content .row2 .item4 {
+    margin-right: 0;
+    clear: right;
+}
+
+/* 页脚 */
+footer {
+    width: 100%;
+    height: 96px;
+    background-color: #666;
+    overflow: hidden;
+}
+
+footer .copyright {
+    color: #fff;
+    text-align: center;
+}

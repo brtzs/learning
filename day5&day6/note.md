@@ -21,3 +21,47 @@
 
 4. 浮动：浮动的框可以向左或向右移动，直到它的外边缘碰到包含框或另一个浮动框的边框为止。
 清除浮动：规定元素的哪一侧不允许其他浮动元素。
+
+5. HTML默认的块级元素：
+块级元素：块级大多为结构性标记
+```
+  <address></adderss>   
+  <center></center>  地址文字
+  <h1></h1>  标题一级
+  <h2></h2>  标题二级
+  <h3></h3>  标题三级
+  <h4></h4>  标题四级
+  <h5></h5>  标题五级
+  <h6></h6>  标题六级
+  <hr>  水平分割线
+  <p></p>  段落
+  <pre></pre>  预格式化
+  <blockquote></blockquote>  段落缩进   前后5个字符
+  <marquee></marquee>  滚动文本
+  <ul></ul>  无序列表
+  <ol></ol>  有序列表
+  <dl></dl>  定义列表
+  <table></table>  表格
+  <form></form>  表单
+  <div></div>
+  ```
+
+6. HTML默认的行内元素
+行内元素：行内大多为描述性标记
+```
+  <span>...</span>
+  <a>...</a>  链接
+  <br>  换行
+  <b>...</b>  加粗
+  <strong>...</strong>  加粗
+  <img >  图片
+  <sup>...</sup>  上标
+  <sub>...</sub>  下标
+  <i>...</i>  斜体
+  <em>...</em>  斜体
+  <del>...</del>  删除线
+  <u>...</u>  下划线
+  <input>...</input>  文本框
+  <textarea>...</textarea>  多行文本
+  <select>...</select>  下拉列表
+```
