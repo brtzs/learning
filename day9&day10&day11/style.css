@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: '苹方', sans-serif;
+}
+
+.container .register-banner {
+    width: 100%;
+    height: 640px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    background-image: url('images/Background.png');
+    background-size: cover;
+}
+
+.container .register-banner .register-banner-header {
+    margin-top: 48px;
+    padding: 16px;
+}
+
+.container .register-banner .register-banner-header h1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.container .register-banner .register-banner-content {
+    width: 50%;
+    margin: auto;
+    padding: 4px 16px;
+}
+
+.container .register-banner .register-banner-content p {
+    width: 80%;
+    margin: auto;
+    padding: 4px 16px;
+    font-weight: 200;
+}
+
+.container .register-banner .register-banner-content .register-banner-form {
+    margin-top: 64px;
+    padding: 40px 32px;
+    border: 1px solid #fff;
+}
+
+.container .register-banner .register-banner-content .register-banner-form .register-banner-form-header {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container .register-banner .register-banner-content .register-banner-form .register-banner-form-subheader {
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.container .register-banner .register-banner-content .register-banner-form .register-banner-form-content {
+    margin-top: 24px;
+}
+
+.container .register-banner .register-banner-content .register-banner-form .register-banner-form-content form input[type='text'],
+.container .register-banner .register-banner-content .register-banner-form .register-banner-form-content form input[type='password'] {
+    padding: 8px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.container .register-banner .register-banner-content .register-banner-form .register-banner-form-content form input[type='submit'] {
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.container .feature-preview {
+    margin: 48px 20%;
+    text-align: center;
+}
+
+.container .feature-preview .feature-preview-subheader {
+    padding: 8px 0;
+    font-weight: 400;
+}
+
+.container .feature-preview .feature-preview-header {
+    padding: 16px 20%;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container .feature-preview .feature-preview-content {
+    padding: 32px;
+}
+
+.container .feature-preview .feature-preview-content .feature-preview-content-row {
+    margin: 16px 0;
+    padding: 16px 0;
+    display: flex;
+}
+
+.container .feature-preview .feature-preview-content .feature-preview-content-row .feature-preview-content-icon img {
+    width: 32px;
+}
+
+.container .feature-preview .feature-preview-content .feature-preview-content-row .feature-preview-content-left {
+    flex: 1;
+    margin-right: 32px;
+    display: flex;
+    text-align: left;
+}
+
+.container .feature-preview .feature-preview-content .feature-preview-content-row .feature-preview-content-right {
+    flex: 1;
+    margin-left: 32px;
+    display: flex;
+    text-align: left;
+}
+
+.container .feature-preview .feature-preview-content .feature-preview-content-row .feature-preview-content-container {
+    margin-left: 32px;
+}
+
+.container .feature-preview .feature-preview-content .feature-preview-content-row .feature-preview-content-container .feature-preview-content-header {
+    padding: 0 0 6px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container .feature-preview .feature-preview-content .feature-preview-content-row .feature-preview-content-container .feature-preview-content-content {
+    font-weight: 300;
+}
+
+.container .support {
+    width: auto;
+    height: 640px;
+    margin: 48px 0;
+    padding: 64px 48px;
+    background-image: url('images/support.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container .support .support-container {
+    position: relative;
+    left: 20%;
+    top: 20%;
+    width: 35%;
+}
+
+.container .support .support-container .header {
+    padding: 8px;
+}
+
+.container .support .support-container .support-content {
+    padding: 8px 0;
+}
+
+.container .support .support-container .support-content p {
+    font-weight: 300;
+}
+
+.container .support .support-container .support-form {
+    padding: 16px 0;
+}
+
+.container .support .support-container .support-form form .support-btn {
+    width: 40%;
+    padding: 16px 32px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.container .support .support-container .support-form form .support-btn-white {
+    margin-right: 4px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #888;
+}
+
+.container .support .support-container .support-form form .support-btn-trans {
+    margin-left: 4px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #888;
+}
+
+.container .product {
+    margin: 16px 0;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.container .product .product-container {
+    margin: 0 20%;
+    text-align: center;
+}
+
+.container .product .product-container .product-header {
+    font-weight: 400;
+}
+
+.container .product .product-container .product-content {
+    padding: 16px 0;
+    display: flex;
+}
+
+.container .product .product-container .product-content .product-item {
+    padding: 16px 32px;
+}
+
+.container .product .product-container .product-content .product-item p {
+    font-weight: 300;
+}
+
+.container .tutorial {
+    margin: 32px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.container .tutorial .tutorial-container {
+    margin: 0 20%;
+    padding: 16px 32px;
+}
+
+.container .tutorial .tutorial-container .tutorial-row-img-l {
+    padding: 16px 0;
+    display: flex;
+}
+
+.container .tutorial .tutorial-container .tutorial-row-img-r {
+    padding: 16px 0;
+    display: flex;
+}
+
+.container .tutorial .tutorial-container .tutorial-content {
+    padding: 0 16px;
+}
+
+.container .tutorial .tutorial-container .tutorial-content .tutorial-header {
+    padding: 32px 0 4px 0;
+    font-weight: 600;
+}
+
+.container .tutorial .tutorial-container .tutorial-content .tutorial-description {
+    font-weight: 300;
+}
+
+.container .tutorial .tutorial-container img {
+    width: 55%;
+    height: 55%;
+    padding: 24px;
+}
+
+.container .goodness {
+    margin: 32px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.container .goodness .goodness-container {
+    padding: 32px 20%;
+}
+
+.container .goodness .goodness-container .goodness-header {
+    padding: 16px 0 0 0;
+}
+
+.container .goodness .goodness-container .goodness-subheader {
+    padding: 0 20%;
+    font-weight: 300;
+}
+
+.container .goodness .goodness-container .goodness-image-container {
+    padding: 16px 0;
+}
+
+.container .goodness .goodness-container .goodness-image-container .goodness-image-row {
+    padding: 8px;
+}
+
+.container .goodness .goodness-container .goodness-image-container .goodness-image-row img {
+    padding: 0 8px;
+    width: 35%;
+}
+
+.container .contact {
+    margin: 32px 0;
+    padding: 32px 20%;
+    text-align: center;
+}
+
+.container .contact .contact-container {
+    display: flex;
+}
+
+.container .contact .contact-container .contact-form {
+    padding: 24px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container .contact .contact-container .contact-form .contact-form-header {
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container .contact .contact-container .contact-form .content-form-content {
+    
+}
+
+.container .contact .contact-container .contact-form .contact-form-content .contact-input-form {
+    width: 60%;
+    margin: 12px 0;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.container .contact .contact-container .contact-form .contact-form-content input[type="submit"] {
+    width: 66%;
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+
+.container .contact .contact-container .contact-content {
+    text-align: left;
+}
+
+.container .contact .contact-container .contact-content .contact-content-header{
+    padding: 0 15%;
+    font-weight: 600;
+}
+
+.container .contact .contact-container .contact-content .contact-content-subheader {
+    padding: 0 15%;
+    font-weight: 300;
+}
+
+.container .contact .contact-container .contact-content .contact-content-infomation {
+    padding: 0 15%;
+}
+
+.container .contact .contact-container .contact-content .contact-content-infomation .contact-content-infomation-item {
+    padding: 10px 0;
+    display: flex;
+}
+
+.container .contact .contact-container .contact-content .contact-content-infomation .contact-content-infomation-item .contact-content-infomation-item-image img {
+    width: 24px;
+    padding: 4px;
+    margin-right: 8px;
+    flex: 1;
+}
+
+.container .contact .contact-container .contact-content .contact-content-infomation .contact-content-infomation-item .contact-content-infomation-item-text {
+    padding: 0 16px;
+    flex: 4;
+}
+
+.container .footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.container .footer .footer-container {
+    margin: 0 32px;
+    padding: 32px 15%;
+}
+
+.container .footer .footer-container .footer-content {
+    display: flex;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item {
+    width: 20%;
+    padding: 16px 16px;
+    color: #888;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item .footer-content-header {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item .footer-content-link {
+    padding: 4px 0;
+    text-align: left;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item .footer-content-link ul {
+    padding: 0;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item .footer-content-link ul li {
+    list-style-type: none;
+    line-height: 3em;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item .footer-content-link ul li a {
+    color: #888;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item .footer-content-link p {
+    font-weight: 300;
+}
+
+.container .footer .footer-container .footer-content .footer-content-item .footer-content-link .footer-link-icon li {
+    padding: 8px 16px  8px 0;
+}
